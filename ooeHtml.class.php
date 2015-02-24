@@ -2,7 +2,7 @@
 /**
 * Classe que retorna html a partir de um template php com marcações especiais
 * @author Marcelo Soares da Costa
-* @email mscbsd at yahoo dot com
+* @email mscbsd at gmail dot com
 * @copyright Marcelo Soares da Costa © 2015.
 * @license FreeBSD http://www.freebsd.org/copyright/freebsd-license.html
 * @version 1.0
