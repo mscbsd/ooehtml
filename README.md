@@ -26,12 +26,17 @@ Parse block var values estatic or from array
 
 foreach ($block_array as $value)
 {
+
 	$Objeto->setHtmlBlockVar('CONTENT3','AUTHORIPSUM',$value['auhor']); // from array / database
 	$Objeto->setHtmlBlockVar('CONTENT3','FRASEIPSUM',$value['content']);
 	$Objeto->setHtmlBlockVar('CONTENT3','URLIPSUM',$value['url']);
 	$Objeto->setHtmlBlockVar('CONTENT3','STATICIPSUM','estático'); // teste estatico , static content
+
 }
+
 
 parse template and print from buffer
 
+
 $Objeto->printHtmlScreen();
+
